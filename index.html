@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- google fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Courgette|Mali&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap" rel="stylesheet">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>ImmoParis</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="home">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-xl navbar-dark px-5 sticky-top">
+            <!--
+      https://www.iconfinder.com/icons/2012967/architecture_design_home_owner_house_housing_real_estate_roof_icon
+      Creative Commons (Attribution 3.0 Unported);
+      https://www.iconfinder.com/Myart
+    -->
+            <a href="#accueil" class="navbar-brand">
+                <img src="./img/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a href="#home" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#agence" class="nav-link">Agence</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#location" class="nav-link">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallerie" class="nav-link">Gallerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-none d-lg-flex align-items-baseline">
+                    <p class="text-white mx-4 phone-header">
+                        <span class="mx-2 phone-icon">
+                      <i class="fas fa fa-phone fa-fw"></i>
+                    </span>+ 123-456-789
+                    </p>
+                    <button class="btn green__btn text-uppercase">réserver</button>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar -->
+        <!-- banner -->
+        <div id="accueil" class="container-fluid">
+            <div class="row">
+                <!-- info -->
+                <div class="col-lg-5 banner-info text-capitalize py-5 px-5">
+                    <h3 class="text-green text-slant">paris lifestyle</h3>
+                    <h1>appartement moderne</h1>
+                    <p>
+                        <span class="text-green">
+                            <i class="fas fa-map"></i>
+                        </span> 1 rue des champs élysées, 75000 Paris
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro facere, repellat fugiat ipsum doloremque eius. lorem15</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, laboriosam, quam assumenda nesciunt, expedita suscipit consectetur a pariatur quis omnis vitae obcaecati ipsum doloribus vero.</p>
+                    <a href="#" class="btn green__btn">visiter</a>
+                    <div class="banner-info__footer d-flex justify-content-around py-2">
+                        <!-- single info -->
+                        <div class="text-white text-center">
+                            <i class="fas fa-bed"></i>
+                            <p class="mb-0">3</p>
+                            <p>lits</p>
+                        </div>
+                        <!-- end single info -->
+                        <!-- single info -->
+                        <div class="text-white text-center">
+                            <i class="fas fa-bath"></i>
+                            <p class="mb-0">2</p>
+                            <p>SdB</p>
+                        </div>
+                        <!-- end single info -->
+                        <!-- single info -->
+                        <div class="text-white text-center">
+                            <i class="fas fa-warehouse"></i>
+                            <p class="mb-0">130</p>
+                            <p>m²</p>
+                        </div>
+                        <!-- end single info -->
+                        <!-- single info -->
+                        <div class="text-white text-center">
+                            <i class="fas fa-paw"></i>
+                            <p class="mb-0">animaux</p>
+                            <p>acceptés</p>
+                        </div>
+                        <!-- end single info -->
+                        <!-- single info -->
+                        <div class="text-white text-center">
+                            <i class="fas fa-money-bill"></i>
+                            <p class="mb-0">3000€</p>
+                            <p>dépot</p>
+                        </div>
+                        <!-- end single info -->
+                    </div>
+                </div>
+                <!-- end info -->
+                <!-- banner img -->
+                <div class="col-lg-7 banner-img">
+                    <div class="banner-img__footer px-3">
+                        <div class="center-div">
+                            <p class="text-capitalize text-green mb-0">tarif</p>
+                            <h4 class="text-white">1200€/mois</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- end banner img -->
+            </div>
+        </div>
+        <!-- end banner -->
+    </header>
+    <!-- END HEADER -->
+
+    <!-- AGENCE -->
+    <section id="agence" class="agence py-5">
+        <div class="container">
+            <div class="row">
+                <!-- agence img -->
+                <div class="col-10 col-md-6 mx-auto my-3">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/featured-1.jpeg" class="car-img-top img-fluid" alt="agence">
+                            <div class="featured-icons">
+                                <a href="#" class="featured-icon-left">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a href="#" class="featured-icon-right">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- card body -->
+                        <div class="card-body">
+                            <div class="card-title text-capitalize">
+                                <h5 class="mb-3">propriété rural en région parisienne</h5>
+                                <p>
+                                    <span class="text-green">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span> 125 rue champagne, 78000 versailles
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- agence info -->
+                <div class="col-10 col-md-6 mx-auto my-3">
+                    <!-- title -->
+                    <div class="row">
+                        <div class="col text-center mb-3">
+                            <h3 class="text-green text-slant text-capitalize">nos demeures</h3>
+                            <h1 class="text-uppercase">l'agence</h1>
+                            <div class="title-underline my-3 bg-secondary">
+                                <div class="title-underline__center"></div>
+                            </div>
+                            <p class="w-75 mx-auto">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end title -->
+                    <!-- agence info body -->
+                    <h3 class="text-uppercase mb-3">réserver aujourd'hui</h3>
+                    <blockquote class="blockquote text-right text-green mb-3">
+                        <p class="mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, unde!</p>
+                        <footer class="blockquote-footer text-green">
+                            john le directeur
+                        </footer>
+                    </blockquote>
+                    <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam impedit vitae neque voluptatem autem molestiae voluptates dicta ut quas tempora.</p>
+                    <a href="#" class="btn green__btn text-capitalize">en savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END AGENCE -->
+
+    <!-- LOCATION -->
+    <section id="location" class="location py-5">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h3 class="text-green text-slant text-capitalize">nos biens à louer</h3>
+                    <h1 class="text-uppercase">location</h1>
+                    <div class="title-underline my-3 bg-secondary">
+                        <div class="title-underline__center"></div>
+                    </div>
+                    <p class="w-75 mx-auto">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+            <!-- end title -->
+            <div class="row">
+                <!-- single location -->
+                <div class="col-10 col-md-6 col-lg-4 mx-auto my-3">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/featured-2.jpeg" class="car-img-top img-fluid" alt="agence">
+                            <div class="featured-icons">
+                                <a href="#" class="featured-icon-left">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a href="#" class="featured-icon-right">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- card body -->
+                        <div class="card-body">
+                            <div class="card-title text-capitalize">
+                                <h5 class="mb-3">cabanes sur pilotis</h5>
+                                <p>
+                                    <span class="text-green">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span> La Ciotat à Mont Fleuri, 478 Mahé
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single location -->
+                <!-- single location -->
+                <div class="col-10 col-md-6 col-lg-4 mx-auto my-3">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/featured-3.jpeg" class="car-img-top img-fluid" alt="agence">
+                            <div class="featured-icons">
+                                <a href="#" class="featured-icon-left">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a href="#" class="featured-icon-right">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- card body -->
+                        <div class="card-body">
+                            <div class="card-title text-capitalize">
+                                <h5 class="mb-3">villa californienne</h5>
+                                <p>
+                                    <span class="text-green">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span>Sunset Blvd, 90046 Los Angeles
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single location -->
+                <!-- single location -->
+                <div class="col-10 col-md-6 col-lg-4 mx-auto my-3">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="img/featured-1.jpeg" class="car-img-top img-fluid" alt="agence">
+                            <div class="featured-icons">
+                                <a href="#" class="featured-icon-left">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a href="#" class="featured-icon-right">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- card body -->
+                        <div class="card-body">
+                            <div class="card-title text-capitalize">
+                                <h5 class="mb-3">propriété rural en région parisienne</h5>
+                                <p>
+                                    <span class="text-green">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span> rue champagne, 78000 versailles
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end single location -->
+            </div>
+        </div>
+    </section>
+    <!-- END LOCATION -->
+
+    <!-- CONTACT -->
+    <section class="contact p--3">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-10 mx-auto col-md-6 my-3 align-self-center">
+                    <h3 class="text-capitalize">
+                        <span class="contact-icon mx-2">
+                            <i class="fas fa-envelope"></i>
+                        </span> s'inscrire à la newsletter
+                    </h3>
+                </div>
+                <div class="col-10 mx-auto col-md-6 my-3">
+                    <form class="form-inline justify-content-center">
+                        <input type="text" placeholder="email" class="form-control text-capitalize mx-2 my-2">
+                        <button type="submit" class="btn mx-2 my-2 text-capitalize contact-btn">valider</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END CONTACT -->
+
+    <!-- SERVICES -->
+    <section id="services" class="services py-5">
+        <div class="container">
+            <div class="row flex-lg-row-reverse">
+                <!-- services info -->
+                <div class="col-lg-8 my-3">
+                    <!-- title -->
+                    <div class="row">
+                        <div class="col text-center mb-3">
+                            <h3 class="text-green text-slant text-capitalize">nos prestations</h3>
+                            <h1 class="text-uppercase text-white">services</h1>
+                            <div class="title-underline my-3 bg-secondary">
+                                <div class="title-underline__center"></div>
+                            </div>
+                            <p class="w-75 mx-auto text-white">
+                                Lorem ipsum dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- end title -->
+                    <div class="row">
+                        <!-- single service -->
+                        <div class="col-10 mx-auto col-sm-6 d-flex justify-content-around my-3 single-service">
+                            <div class="service-icon align-self-center">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <!-- service info -->
+                            <div class="text-capitalize">
+                                <h6 class="text-white">voisinage calme</h6>
+                                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="text-green service-link">en savoir plus
+                                    <span><i class="fas fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end single service -->
+                        <!-- single service -->
+                        <div class="col-10 mx-auto col-sm-6 d-flex justify-content-around my-3 single-service">
+                            <div class="service-icon align-self-center">
+                                <i class="fas fa-thumbs-up"></i>
+                            </div>
+                            <!-- service info -->
+                            <div class="text-capitalize">
+                                <h6 class="text-white">secteur convoité</h6>
+                                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="text-green service-link">en savoir plus
+                                    <span><i class="fas fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end single service -->
+                        <!-- single service -->
+                        <div class="col-10 mx-auto col-sm-6 d-flex justify-content-around my-3 single-service">
+                            <div class="service-icon align-self-center">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <!-- service info -->
+                            <div class="text-capitalize">
+                                <h6 class="text-white">accessible</h6>
+                                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="text-green service-link">en savoir plus
+                                    <span><i class="fas fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end single service -->
+                        <!-- single service -->
+                        <div class="col-10 mx-auto col-sm-6 d-flex justify-content-around my-3 single-service">
+                            <div class="service-icon align-self-center">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <!-- service info -->
+                            <div class="text-capitalize">
+                                <h6 class="text-white">disponible 24h/24</h6>
+                                <p class="text-secondary">Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="text-green service-link">en savoir plus
+                                    <span><i class="fas fa-arrow-right"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- end single service -->
+                    </div>
+                </div>
+                <!-- services photo -->
+                <div class="col-10 mx-auto col-lg-4 align-self-center">
+                    <div class="img-container">
+                        <img src="img/featured-3.jpeg" alt="photo" class="img-fluid">
+                        <a href="#" class="text-capitalize services-info-text p-2">plus d'info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SERVICES -->
+
+    <!-- GALLERY -->
+    <section id="gallerie" class="gallery py-5">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h3 class="text-green text-slant text-capitalize">notre patrimoine</h3>
+                    <h1 class="text-uppercase">gallerie</h1>
+                    <div class="title-underline my-3 bg-secondary">
+                        <div class="title-underline__center"></div>
+                    </div>
+                    <p class="w-75 mx-auto">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+            <!-- end title -->
+            <!-- gallery button -->
+            <div class="row">
+                <div class="col d-flex justify-content-around flex-wrap mb-4 button-group filter-button-group">
+                    <button type="button" class="btn text-capitalize gallery-btn" data-filter="*">
+                        tous
+                    </button>
+                    <button type="button" class="btn text-capitalize gallery-btn" data-filter=".salon">
+                        salon
+                    </button>
+                    <button type="button" class="btn text-capitalize gallery-btn" data-filter=".cuisine">
+                        cuisine
+                    </button>
+                    <button type="button" class="btn text-capitalize gallery-btn" data-filter=".chambre">
+                        chambre
+                    </button>
+                </div>
+            </div>
+            <!-- end gallery button -->
+            <div class="row gallery-items">
+                <!-- single column -->
+                <div class="col-10 col-lg-6 mx-auto my-3">
+                    <div class="gallery-img-container">
+                        <img src="img/livingRoom.jpeg" alt="photo" class="img-fluid gallery-img">
+                        <a href="#" class="text-capitalize gallery-info p-2">salon</a>
+                        <span class="gallery-icon">
+                        <i class="fas fa-plus"></i>
+                    </span>
+                    </div>
+                </div>
+                <!-- single column -->
+                <div class="col-10 col-lg-6 mx-auto my-3 d-flex flex-column justify-content-between">
+                    <!-- first row -->
+                    <div class="row">
+                        <!-- single column -->
+                        <div class="col-lg-6 my-3 my-lg-0">
+                            <div class="gallery-img-container">
+                                <img src="img/bedroom.jpeg" alt="photo" class="img-fluid gallery-img">
+                                <a href="#" class="text-capitalize gallery-info p-2">chambre</a>
+                                <span class="gallery-icon">
+                        <i class="fas fa-plus"></i>
+                    </span>
+                            </div>
+                        </div>
+                        <!-- single column -->
+                        <!-- single column -->
+                        <div class="col-lg-6 my-3 my-lg-0">
+                            <div class="gallery-img-container">
+                                <img src="img/bedroom2.jpeg" alt="photo" class="img-fluid gallery-img">
+                                <a href="#" class="text-capitalize gallery-info p-2">chambre</a>
+                                <span class="gallery-icon">
+                        <i class="fas fa-plus"></i>
+                    </span>
+                            </div>
+                        </div>
+                        <!-- single column -->
+                    </div>
+                    <!-- end firt row -->
+                    <!-- second row -->
+                    <div class="row">
+                        <!-- single column -->
+                        <div class="col-lg-6 my-3 my-lg-0">
+                            <div class="gallery-img-container">
+                                <img src="img/kitchen.jpeg" alt="photo" class="img-fluid gallery-img">
+                                <a href="#" class="text-capitalize gallery-info p-2">cuisine</a>
+                                <span class="gallery-icon">
+                        <i class="fas fa-plus"></i>
+                    </span>
+                            </div>
+                        </div>
+                        <!-- single column -->
+                        <!-- single column -->
+                        <div class="col-lg-6 my-3 my-lg-0">
+                            <div class="gallery-img-container">
+                                <img src="img/livingRoom2.jpeg" alt="photo" class="img-fluid gallery-img">
+                                <a href="#" class="text-capitalize gallery-info p-2">salon</a>
+                                <span class="gallery-icon">
+                        <i class="fas fa-plus"></i>
+                    </span>
+                            </div>
+                        </div>
+                        <!-- single column -->
+                    </div>
+                    <!-- end second row -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END GALLERY -->
+
+    <!-- TOUR -->
+    <section id="tour" class="tour py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <span class="tour-icon d-inline-block">
+                        <i class="fas fa-play"></i>
+                    </span>
+                    <h3 class="text-green text-slant text-capitalize">visite guidée</h3>
+                    <h1 class="text-uppercase text-white">virtual tour</h1>
+                    <div class="title-underline my-3 bg-secondary">
+                        <div class="title-underline__center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END TOUR -->
+
+    <!-- PLACES -->
+    <section id="places" class="places py-5">
+        <div class="container">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h3 class="text-green text-slant text-capitalize">les alentours</h3>
+                    <h1 class="text-uppercase">commodités</h1>
+                    <div class="title-underline my-3 bg-secondary">
+                        <div class="title-underline__center"></div>
+                    </div>
+                    <p class="w-75 mx-auto">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
+            </div>
+            <!-- end title -->
+            <div class="row align-items-center">
+                <div class="col-md-6 my-3">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.94722612432!2d2.2770205812667577!3d48.85883773957138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1582301407082!5m2!1sfr!2sfr"
+                            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="embed-responsive-item"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 my-3">
+                    <div class="w-100">
+                        <!-- single place -->
+                        <div>
+                            <h6 class="text-capitalize my-3">
+                                <span class="text-green">
+                                    <i class="fas fa-arrow-right mx-2"></i>
+                                </span> école
+                                <span class="float-right">1,6 km</span>
+                            </h6>
+                        </div>
+                        <!-- end single place -->
+                        <!-- single place -->
+                        <div>
+                            <h6 class="text-capitalize my-3">
+                                <span class="text-green">
+                                    <i class="fas fa-arrow-right mx-2"></i>
+                                </span> magasin
+                                <span class="float-right">500 m</span>
+                            </h6>
+                        </div>
+                        <!-- end single place -->
+                        <!-- single place -->
+                        <div>
+                            <h6 class="text-capitalize my-3">
+                                <span class="text-green">
+                                    <i class="fas fa-arrow-right mx-2"></i>
+                                </span> restaurant
+                                <span class="float-right">2,3 km</span>
+                            </h6>
+                        </div>
+                        <!-- end single place -->
+                        <!-- single place -->
+                        <div>
+                            <h6 class="text-capitalize my-3">
+                                <span class="text-green">
+                                    <i class="fas fa-arrow-right mx-2"></i>
+                                </span> parc
+                                <span class="float-right">5 km</span>
+                            </h6>
+                        </div>
+                        <!-- end single place -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END PLACES -->
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 px-3 text-center my-3">
+                    <img src="img/logo.png" alt="logo" class="img-fluid">
+                    <p class="text-muted my-3 text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit architecto reprehenderit nulla provident obcaecati in vitae excepturi soluta amet nesciunt.</p>
+                    <a href="#" class="text-green service-link text-capitalize">plus d'info
+                        <span>
+                        <i class="fas fa-arrow-right"></i>
+                    </span>
+                    </a>
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-5 mx-auto px-3 text-center my-3">
+                    <!-- title -->
+                    <div class="col text-center mb-3">
+                        <h1 class="text-uppercase text-white">contact</h1>
+                        <div class="title-underline my-3 bg-secondary">
+                            <div class="title-underline__center"></div>
+                        </div>
+                    </div>
+                    <!-- end title -->
+                    <!-- single contact -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fas fa-map"></i>
+                        </span>
+                        <p class="text-white text-capitalize">
+                            rue des champs élysées, Paris
+                        </p>
+                    </div>
+                    <!-- end single contact -->
+                    <!-- single contact -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        <p class="text-white text-capitalize">
+                            +123 456 789
+                        </p>
+                    </div>
+                    <!-- end single contact -->
+                    <!-- single contact -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <p class="text-white text-capitalize">
+                            contact@contact.com
+                        </p>
+                    </div>
+                    <!-- end single contact -->
+                    <!-- single contact -->
+                    <div class="single-contact px-5 my-3 d-flex justify-content-between">
+                        <span class="text-green mr-3">
+                            <i class="fas fa-clock"></i>
+                        </span>
+                        <p class="text-white text-capitalize">
+                            lundi - vendredi / 8h - 18h
+                        </p>
+                    </div>
+                    <!-- end single contact -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- isotop -->
+    <script src="js/isotope.js"></script>
+    <!-- script js -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

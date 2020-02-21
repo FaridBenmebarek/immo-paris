@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat|Mali");
+:root {
+    --mainDark: #242325;
+    --mainGreen: #61e786;
+    --mainWhite: #fff;
+    --mainGrey: #eeeeee;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mali', cursive;
+    background: var(--mainWhite);
+    color: var(--mainDark);
+}
+
+
+/* 
+====================================
+GLOBALS
+====================================
+*/
+
+.text-green {
+    color: var(--mainGreen);
+}
+
+.text-slant {
+    font-family: 'Caveat', cursive;
+}
+
+.green__btn {
+    color: var(--mainGreen);
+    border: 0.1rem solid var(--mainGreen);
+    background: transparent;
+    transition: all 1s ease;
+}
+
+.green__btn:hover {
+    background: var(--mainGreen);
+    color: var(--mainWhite);
+}
+
+.title-underline {
+    width: 12rem;
+    height: 0.3rem;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 2rem;
+}
+
+.title-underline__center {
+    position: absolute;
+    width: 50%;
+    height: 0.6rem;
+    background: var(--mainGreen);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+}
+
+.blockquote {
+    border-left: 0.5rem solid var(--mainGreen);
+}
+
+
+/* 
+====================================
+HEADER
+====================================
+*/
+
+.top-header {
+    margin-top: 101px;
+}
+
+.navbar {
+    background: var(--mainDark)!important;
+    font-size: 1.5rem;
+}
+
+.phone-icon {
+    color: var(--mainGreen);
+    border: 0.1rem solid var(--mainGreen);
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: all 1s ease;
+}
+
+.phone-header:hover .phone-icon {
+    background: var(--mainGreen);
+    color: var(--mainWhite);
+}
+
+
+/* 
+====================================
+BANNER
+====================================
+*/
+
+.banner-info {
+    min-height: calc(100vh - 101px);
+    background: var(--mainGrey);
+    position: relative;
+}
+
+.banner-info__footer {
+    background: var(--mainGreen);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.banner-img {
+    min-height: calc(100vh - 101px);
+    background: linear-gradient(to top, transparent, var(--mainGreen)), url(../img/bannerBcg.jpeg) center/cover no-repeat fixed;
+    position: relative;
+}
+
+.banner-img__footer {
+    background: var(--mainDark);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 109px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* 
+====================================
+AGENCE
+====================================
+*/
+
+.img-container {
+    position: relative;
+}
+
+.featured-icons {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.featured-icon-left {
+    background: var(--mainDark);
+    padding: 0.5rem;
+    display: inline-block;
+    color: var(--mainWhite);
+}
+
+.featured-icon-right {
+    background: var(--mainGreen);
+    padding: 0.5rem;
+    display: inline-block;
+    color: var(--mainWhite);
+}
+
+
+/* 
+====================================
+LOCATION
+====================================
+*/
+
+.location {
+    background: var(--mainGrey);
+}
+
+
+/* 
+====================================
+CONTACT
+====================================
+*/
+
+.contact {
+    background: var(--mainGreen);
+    color: var(--mainWhite);
+}
+
+.contact-btn {
+    background: transparent;
+    border: 0.1rem solid var(--mainWhite);
+    color: var(--mainWhite);
+    transition: all 1s ease;
+}
+
+.contact-btn:hover {
+    background: var(--mainWhite);
+    color: var(--mainGreen);
+}
+
+
+/* 
+====================================
+SERVICES
+====================================
+*/
+
+.services,
+.tour {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/bannerBcg.jpeg') center/cover no-repeat fixed;
+}
+
+.services-info-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--mainGreen);
+    color: var(--mainWhite)!important;
+    margin-bottom: 0;
+    text-decoration: none!important;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.services-info-text:hover {
+    color: var(--mainDark)!important;
+}
+
+.service-icon {
+    font-size: 2rem;
+    color: var(--mainGreen);
+    padding: 0.5rem;
+    border: 0.1rem solid var(--mainGreen);
+    margin-right: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.single-service:hover .service-icon {
+    color: var(--mainWhite);
+    background: var(--mainGreen);
+}
+
+.service-link {
+    text-decoration: none!important;
+    transition: all 0.5s ease;
+}
+
+.service-link:hover {
+    color: var(--mainWhite);
+}
+
+
+/* 
+====================================
+GALLERY
+====================================
+*/
+
+.gallery-btn:hover {
+    background: var(--mainGreen);
+    color: var(--mainWhite);
+}
+
+.gallery-img-container {
+    position: relative;
+    transition: all 1s linear;
+    overflow: hidden;
+}
+
+.gallery-img-container:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.gallery-img {
+    transition: all 1s linear;
+}
+
+.gallery-img-container:hover .gallery-img {
+    opacity: 0.3;
+}
+
+.gallery-info {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    background-color: var(--mainGreen);
+    color: var(--mainWhite);
+    text-decoration: none!important;
+    transition: all 0.3s linear;
+}
+
+.gallery-info:hover {
+    color: var(--mainDark);
+}
+
+.gallery-img-container:hover .gallery-info {
+    transform: translate(-50%, 0);
+}
+
+.gallery-icon {
+    position: absolute;
+    color: var(--mainWhite);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    opacity: 0;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.gallery-img-container:hover .gallery-icon {
+    opacity: 1;
+}
+
+
+/* 
+====================================
+TOUR
+====================================
+*/
+
+.tour-icon {
+    color: var(--mainGreen);
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background: var(--mainWhite);
+    border-radius: 20%;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 1s linear;
+}
+
+.tour-icon:hover {
+    color: var(--mainWhite);
+    background: var(--mainGreen);
+}
+
+
+/* 
+====================================
+FOOTER
+====================================
+*/
+
+.footer {
+    background: var(--mainDark);
+}
